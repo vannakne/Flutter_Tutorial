@@ -73,7 +73,7 @@ class _BarcodeScannerPageState extends State<BarcodeScannerPage> {
         _scrollController.animateTo(
           targetScrollExtent,
           duration: Duration(milliseconds: 500),
-          curve: Curves.easeOut,
+          curve: Curves.easeIn,
         );
       });
     });
